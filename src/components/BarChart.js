@@ -33,4 +33,4 @@ const BarChart = ({ data }) => {
   );
 };
 
-export default BarChart;
+export default BarChart; 

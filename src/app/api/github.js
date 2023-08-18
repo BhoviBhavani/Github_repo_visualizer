@@ -3,5 +3,5 @@ const fetchGithubData = async (username) => {
     const data = await response.json();
     return data;
   };
-  
+
   export default fetchGithubData;

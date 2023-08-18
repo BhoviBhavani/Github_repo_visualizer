@@ -3,7 +3,7 @@ import BarChart from './BarChart';
 
 const RepoList = ({ repos }) => {
   const itemsPerPage = 10; // Number of repositories per page
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useState(1); 
   
   const lastRepoIndex = currentPage * itemsPerPage;
   const firstRepoIndex = lastRepoIndex - itemsPerPage;

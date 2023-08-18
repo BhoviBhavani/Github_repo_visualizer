@@ -50,7 +50,7 @@ const Home = () => {
             onClick={handleSearch}
             className="ml-2 px-4 py-2 bg-blue-500 text-white rounded-r-md hover:bg-blue-600 focus:ring focus:ring-blue-300 focus:outline-none"
           >
-            Search
+           Search
           </button>
         </div>
         {error && <p className="mt-2 text-red-500">{error}</p>}
